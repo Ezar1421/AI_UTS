@@ -1,0 +1,98 @@
+Input       : inputs/contoh.csv
+Mata kuliah : 10  | Bentrok (edge): 20  | Sesi: ['S1', 'S2', 'S3']
+Urutan variabel: ['AI', 'BD', 'GR', 'JK', 'KD', 'MB', 'PW', 'RP', 'SO', 'ST']
+
+=== Backtracking polos (bt) ===
+Status      : FEASIBLE (jadwal sah ditemukan)
+  S1: AI, PW, RP, SO
+  S2: BD, GR, JK
+  S3: KD, MB, ST
+Constraint dilanggar (verifikasi akhir): tidak ada
+Assignment  : 25
+Backtrack   : 15
+Nilai dicoret FC: 0
+Waktu       : 0.1094 ms (rata-rata 5x)
+
+=== BT + MRV/Degree saja (mrv) ===
+Status      : FEASIBLE (jadwal sah ditemukan)
+  S1: BD, GR, JK
+  S2: KD, MB, ST
+  S3: AI, PW, RP, SO
+Constraint dilanggar (verifikasi akhir): tidak ada
+Assignment  : 30
+Backtrack   : 20
+Nilai dicoret FC: 0
+Waktu       : 0.4093 ms (rata-rata 5x)
+
+=== BT + Forward Checking saja (fc) ===
+Status      : FEASIBLE (jadwal sah ditemukan)
+  S1: AI, PW, RP, SO
+  S2: BD, GR, JK
+  S3: KD, MB, ST
+Constraint dilanggar (verifikasi akhir): tidak ada
+Assignment  : 18
+Backtrack   : 8
+Nilai dicoret FC: 24
+Waktu       : 0.1189 ms (rata-rata 5x)
+
+=== BT + MRV/Degree + FC (mrv_fc) ===
+Status      : FEASIBLE (jadwal sah ditemukan)
+  S1: BD, GR, JK
+  S2: KD, MB, ST
+  S3: AI, PW, RP, SO
+Constraint dilanggar (verifikasi akhir): tidak ada
+Assignment  : 10
+Backtrack   : 0
+Nilai dicoret FC: 16
+Waktu       : 0.1392 ms (rata-rata 5x)
+
+
+Input       : inputs/contoh.csv
+Mata kuliah : 10  | Bentrok (edge): 20  | Sesi: ['S1', 'S2', 'S3']
+Urutan variabel: ['AI', 'BD', 'GR', 'JK', 'KD', 'MB', 'PW', 'RP', 'SO', 'ST']
+
+=== Backtracking polos (bt) ===
+Status      : FEASIBLE (jadwal sah ditemukan)
+  S1: AI, PW, RP, SO
+  S2: BD, GR, JK
+  S3: KD, MB, ST
+Constraint dilanggar (verifikasi akhir): tidak ada
+Assignment  : 25
+Backtrack   : 15
+Nilai dicoret FC: 0
+Waktu       : 0.1598 ms (rata-rata 5x)
+
+=== BT + MRV/Degree saja (mrv) ===
+Status      : FEASIBLE (jadwal sah ditemukan)
+  S1: BD, GR, JK
+  S2: KD, MB, ST
+  S3: AI, PW, RP, SO
+Constraint dilanggar (verifikasi akhir): tidak ada
+Assignment  : 30
+Backtrack   : 20
+Nilai dicoret FC: 0
+Waktu       : 0.4077 ms (rata-rata 5x)
+
+=== BT + Forward Checking saja (fc) ===
+Status      : FEASIBLE (jadwal sah ditemukan)
+  S1: AI, PW, RP, SO
+  S2: BD, GR, JK
+  S3: KD, MB, ST
+Constraint dilanggar (verifikasi akhir): tidak ada
+Assignment  : 18
+Backtrack   : 8
+Nilai dicoret FC: 24
+Waktu       : 0.1200 ms (rata-rata 5x)
+
+=== BT + MRV/Degree + FC (mrv_fc) ===
+Status      : FEASIBLE (jadwal sah ditemukan)
+  S1: BD, GR, JK
+  S2: KD, MB, ST
+  S3: AI, PW, RP, SO
+Constraint dilanggar (verifikasi akhir): tidak ada
+Assignment  : 10
+Backtrack   : 0
+Nilai dicoret FC: 16
+Waktu       : 0.1351 ms (rata-rata 5x)
+
+

@@ -1,0 +1,5 @@
+# Data contoh dari soal: satu atau beberapa pasangan bentrok per baris
+AI,BD   AI,GR   AI,KD   AI,ST   BD,SO
+GR,MB   GR,PW   GR,RP   GR,SO   GR,ST
+JK,KD   JK,PW   JK,ST   KD,PW   KD,RP
+MB,RP   MB,SO   PW,ST   RP,ST   SO,ST

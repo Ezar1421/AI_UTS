@@ -1,0 +1,7 @@
+# Data contoh + beberapa bentrok tambahan (silakan ubah sesuai skenario kelompok)
+AI,BD   AI,GR   AI,KD   AI,ST   BD,SO
+GR,MB   GR,PW   GR,RP   GR,SO   GR,ST
+JK,KD   JK,PW   JK,ST   KD,PW   KD,RP
+MB,RP   MB,SO   PW,ST   RP,ST   SO,ST
+# tambahan
+AI,JK   BD,KD   MB,PW

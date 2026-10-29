@@ -1,0 +1,10 @@
+{
+  "courses": ["AI", "BD", "GR", "JK", "KD", "MB", "PW", "RP", "SO", "ST"],
+  "sessions": ["S1", "S2", "S3", "S4"],
+  "conflicts": [
+    ["AI","BD"],["AI","GR"],["AI","KD"],["AI","ST"],["BD","SO"],
+    ["GR","MB"],["GR","PW"],["GR","RP"],["GR","SO"],["GR","ST"],
+    ["JK","KD"],["JK","PW"],["JK","ST"],["KD","PW"],["KD","RP"],
+    ["MB","RP"],["MB","SO"],["PW","ST"],["RP","ST"],["SO","ST"]
+  ]
+}
